@@ -107,8 +107,8 @@ public:
         }
 
         for(int i = index; i < size-1; i++){
-            keys[index] = keys[index+1];
-            values[index] = values[index+1];
+            keys[i] = keys[i+1];
+            values[i] = values[i+1];
         }
         size--;
     }
